@@ -1,0 +1,17 @@
+[package]
+name = "chapter-1"
+version = "0.1.0"
+authors = ["hnidoaht-101 <larktoshad0wknight.101@gmail.com>"]
+edition = "2021"
+description = "My Rust Journey with Advanced Programming in the UNIX environment -3rd ed book"
+keywords = [
+    "unix",
+    "libc",
+    "ipc",
+    "network",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nix = "0.24"
